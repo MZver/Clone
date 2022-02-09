@@ -1,0 +1,15 @@
+Package: RFMPackage
+Type: Package
+Title: Calculating the RFM score
+Version: 0.1.0
+Author: Matija Zver
+Maintainer: Matija Zver <matijazver7@gmail.com>
+Description: Calculates the normal or weighted RFM scored that is based on the recency, frequency and monetary score from 1 - 3.
+License: No licence
+Depends: R (>= 3.0.1), data.table, Hmisc
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
